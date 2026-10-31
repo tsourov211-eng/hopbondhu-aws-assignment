@@ -151,7 +151,7 @@ The private route table screenshots are evidence of the captured, unfinished sta
 
 ![Backend EC2 details](screenshots/07b-backend-instance-details.png)
 
-![Backend Security Group inbound rule](screenshots/07c-backend-security-attached.png)
+![Backend Security Group inbound rule](screenshots/08b-backend-sg-inbound.png)
 
 This capture shows the backend Security Group and its SSH source rule. It is not the EC2 instance's Security tab, so take a separate instance-level screenshot to prove that this group is attached to `shopbondhu-backend`.
 
