@@ -13,7 +13,7 @@ The archive contains a `screenshots/` folder with the following files:
 - `06a-private-rt-subnet-associations.png`
 - `07-ec2-instances.png`
 - `07b-backend-instance-details.png`
-- `07c-backend-security-attached.png`
+- `08b-backend-sg-inbound.png`
 - `08a-web-sg-inbound.png`
 - `14-backend-instance-launch.png`
 
