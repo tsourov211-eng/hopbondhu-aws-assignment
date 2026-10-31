@@ -1,0 +1,25 @@
+# SSH and private keys
+*.pem
+*.ppk
+*.key
+id_rsa
+id_ed25519
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+.aws/
+credentials
+config.local
+
+# Local/editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
