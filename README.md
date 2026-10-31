@@ -6,6 +6,8 @@ I have kept the notes close to what I configured in the AWS Console. Where a set
 
 > **Screenshot upload note:** The full-screen PNG evidence referenced in this README has been collected in a separate archive supplied with this update. The GitHub text-file connection used for this push cannot attach local binary image files directly, so the `screenshots/*.png` files are **not yet present in the remote repository**. Download `shopbondhu-screenshots-evidence.zip`, extract it into the repository root, and follow [UPLOAD-SCREENSHOTS.md](UPLOAD-SCREENSHOTS.md) to add the images. Until then, the embedded image paths below will not render on GitHub.
 
+> **Repository-name check:** This repository is currently named `hopbondhu-aws-assignment`. The assignment submission guideline specifies `shopbondhu-aws-assignment`. I kept the repository URL you supplied; rename it in GitHub before final submission if the required name is enforced exactly.
+
 > **Current progress:** Tasks 1–3 are verified. A Zonal public NAT Gateway was configured with an Elastic IP, but its final `Available` state still needs to be confirmed. The public route table is verified. The private route table is not finished yet. Both EC2 instances have been launched. Task 7 is blocked by an SSH timeout, so Nginx installation has not yet been confirmed.
 
 ## 1. Project Title & Short Description
@@ -99,7 +101,7 @@ The default network ACL associated with the VPC was inspected. The captured inbo
 | Security group | `shopbondhu-web-sg` | `shopbondhu-backend-sg` |
 | State in captured details | Running | Running |
 
-The Web instance's status page showed its system, instance, and EBS checks as passed. The backend details screenshot showed it running with no public IPv4 address. The EC2 instances list screenshot was captured while the backend status check was still initializing; the later backend details screenshot confirms the instance state as Running.
+The Web instance's status page showed its system, instance, and EBS checks as passed. The backend details screenshot showed it running with no public IPv4 address. The EC2 instances list screenshot was captured while the backend status check was still initializing; the later backend details screenshot confirms the instance state as Running. The instance-level Security tab was not captured in this evidence set, so the backend Security Group attachment still needs an explicit screenshot.
 
 The SSH key pair is named `shopbondhu-key` (RSA). The private `.pem` file is kept locally and is deliberately not included in this repository.
 
@@ -149,7 +151,9 @@ The private route table screenshots are evidence of the captured, unfinished sta
 
 ![Backend EC2 details](screenshots/07b-backend-instance-details.png)
 
-![Backend security group](screenshots/07c-backend-security-attached.png)
+![Backend Security Group inbound rule](screenshots/07c-backend-security-attached.png)
+
+This capture shows the backend Security Group and its SSH source rule. It is not the EC2 instance's Security tab, so take a separate instance-level screenshot to prove that this group is attached to `shopbondhu-backend`.
 
 ![Web security group inbound rules at capture time](screenshots/08a-web-sg-inbound.png)
 
