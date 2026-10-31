@@ -4,6 +4,8 @@ This repository records my work on the **“Launch Day at ShopBondhu”** AWS as
 
 I have kept the notes close to what I configured in the AWS Console. Where a setting still needs a final check or a task is blocked, I have called that out instead of marking it complete.
 
+> **Screenshot upload note:** The full-screen PNG evidence referenced in this README has been collected in a separate archive supplied with this update. The GitHub text-file connection used for this push cannot attach local binary image files directly, so the `screenshots/*.png` files are **not yet present in the remote repository**. Download `shopbondhu-screenshots-evidence.zip`, extract it into the repository root, and follow [UPLOAD-SCREENSHOTS.md](UPLOAD-SCREENSHOTS.md) to add the images. Until then, the embedded image paths below will not render on GitHub.
+
 > **Current progress:** Tasks 1–3 are verified. A Zonal public NAT Gateway was configured with an Elastic IP, but its final `Available` state still needs to be confirmed. The public route table is verified. The private route table is not finished yet. Both EC2 instances have been launched. Task 7 is blocked by an SSH timeout, so Nginx installation has not yet been confirmed.
 
 ## 1. Project Title & Short Description
