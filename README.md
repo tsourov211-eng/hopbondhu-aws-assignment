@@ -1,3 +1,9 @@
+## Ostad Module 4 — 3-Tier AWS VPC Assignment
+
+A separate evidence-based report for the Ostad assignment is available in [ostad-3tier-assignment/README.md](ostad-3tier-assignment/README.md). It documents the supplied AWS screenshots, observed resource IDs, architecture, and remaining verification items. The screenshot archive and upload instructions are in [ostad-3tier-assignment/UPLOAD-SCREENSHOTS.md](ostad-3tier-assignment/UPLOAD-SCREENSHOTS.md).
+
+---
+
 # ShopBondhu — AWS Cloud Assignment
 
 This repository records my work on the **“Launch Day at ShopBondhu”** AWS assignment. The goal is to build a small VPC network with separate public and private subnets, deploy a public web server, and allow a private backend server to reach the internet through a NAT Gateway.
