@@ -142,7 +142,7 @@ Shows the three Web, Application, and Database security groups and their IDs in 
 - [ ] Capture public route table with `0.0.0.0/0 → Internet Gateway`.
 - [ ] Capture inbound and outbound rules for all three security groups.
 - [ ] Confirm Web allows HTTP/HTTPS as needed; App accepts API traffic only from Web SG; DB accepts its database port only from App SG.
-- [ ] Verify backend and DB services are running on private EC2 instances.
+- [ ] Verify backend and DB services are running on private EC2 instances. The Todo page text names MariaDB, while the assignment brief specifies MySQL or PostgreSQL; confirm that MariaDB is accepted by the instructor or use one of the explicitly named engines.
 - [ ] Add a new record through the UI, refresh, and prove it remains; ideally query the database directly as well.
 - [ ] Capture Nginx status and reverse-proxy configuration.
 - [ ] Demonstrate end-to-end Browser → Nginx → private API → private MariaDB.
